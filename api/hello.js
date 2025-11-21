@@ -1,6 +1,6 @@
 export default function handler(req, res) {
-  return res.status(200).json({
-    message: "Hello World!",
+  res.status(200).json({
+    message: "Hello World from Vercel API!",
     time: new Date().toISOString()
   });
 }
